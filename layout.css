@@ -39,11 +39,11 @@ body
 
     _overflow: hidden;
 
-    _-webkit-perspective: 2500px;
-    _-moz-perspective: 2500px;
-    _-ms-perspective: 2500px;
-    _-o-perspective: 2500px;
-    _perspective: 2500px;
+    -webkit-perspective: 2500px;
+    -moz-perspective: 2500px;
+    -ms-perspective: 2500px;
+    -o-perspective: 2500px;
+    perspective: 2500px;
 }
 
 #controls
@@ -78,6 +78,14 @@ body
     bottom: 1px;
     left: 1px;
     position: absolute;
+}
+
+#cssPanel,
+#cssPanel #cssTextArea
+{
+    width: 450px;
+    height: 200px;
+    overflow: hidden;
 }
 
 button

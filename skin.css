@@ -24,6 +24,9 @@ div.variable
 
 div.variable label.name
 {
+    font-weight: bold;
+    text-decoration: none;
+
     width: 100px;
     height: 20px;
 
@@ -39,6 +42,13 @@ div.variable label.name
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
+
+    opacity: 0.8;
+}
+
+div.variable a:hover label.name
+{
+    opacity: 1.0;
 }
 
 div.variable label.value
@@ -74,4 +84,9 @@ button
 button:hover
 {
     background-color: #444;
+}
+
+#cssPanel #cssTextArea
+{
+    font-size: 10px;
 }

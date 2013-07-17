@@ -14,12 +14,14 @@ var PropertyControl = Class.extend
 
     //Creation.
 
-        construct: function(parameters)
+        construct: function(parameters, parentPropertyName)
         {
             //Save (and some default values).
-            this.keyPath = parameters['keyPath'];
-            this.parentName = parameters['parentName'];
-            this.browserSafe = parameters['browserSafe'];
+            this.parentPropertyName = parentPropertyName || '';
+            var dot = (parentPropertyName) ? '.' : '';
+            this.key = parameters['key'];
+            this.keyPath = this.parentPropertyName+dot+this.key;
+
             this.name = parameters['name'];
             this.unit = parameters['unit'];
             this.url = parameters['url'];
@@ -41,14 +43,14 @@ var PropertyControl = Class.extend
             var div = document.createElement('div');
                 div.className = 'variable';
 
+            var propertyNameWrapper = document.createElement('a');
+                propertyNameWrapper.href = this.url;
+                propertyNameWrapper.title = this.title;
+                propertyNameWrapper.target = '_blank';
+
                 var nameLabel = document.createElement('label');
                     nameLabel.className = 'name';
-
-                    var propertyName = document.createElement('a');
-                        propertyName.href = this.url;
-                        propertyName.title = this.title;
-                        propertyName.target = '_blank';
-                        propertyName.innerHTML = this.name;
+                    nameLabel.innerHTML = this.name;
 
                     this.slider = document.createElement('input');
                     this.slider.id = this.name+'Slider';
@@ -81,8 +83,8 @@ var PropertyControl = Class.extend
                 unitLabel.innerHTML = this.unit;
 
             //Assemble.
-            div.appendChild(nameLabel);
-                nameLabel.appendChild(propertyName);
+            div.appendChild(propertyNameWrapper);
+                propertyNameWrapper.appendChild(nameLabel);
             div.appendChild(this.slider);
             div.appendChild(this.valueTextField);
             div.appendChild(unitLabel);
@@ -145,7 +147,6 @@ var PropertyControl = Class.extend
         }
 
 });
-
 
 var TransformValueControl = PropertyControl.extend
 ({

@@ -4,6 +4,9 @@ CSS3 transform playground.
 
 #### Version tracking
 
++ 0.5.0
+    * Tons of features, factoring actually
+
 + 0.0.2
     * Created slider that spits out CSS3 definitions
 

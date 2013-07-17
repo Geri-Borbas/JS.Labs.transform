@@ -22,8 +22,6 @@ var ViewController = Class.extend
 
             //Property control colelction.
             this.properyControls = [];
-            this.addPropertyControls(defaultPropertyControls);
-            this.addPropertyValueControls(defaultPropertyValueControls);
 
             //Model.
             this.cssText = '';
@@ -32,6 +30,11 @@ var ViewController = Class.extend
             this.mouseWheelListener = new MouseWheelListener(this.mouseDidRollWheel);
         },
 
+        build: function()
+        {
+            this.addPropertyControls(defaultPropertyControls);
+            this.addPropertyValueControls(defaultPropertyValueControls);
+        },
 
     //Manage CSS properties.
 
@@ -42,7 +45,7 @@ var ViewController = Class.extend
             control = new window[className](parameters);
 
             //Collect.
-            this.properyControls[parameters['keyPath']] = control;
+            this.properyControls[control.keyPath] = control;
 
             //Add UI.
             this.propertiesPanel.appendChild(control.element);
@@ -50,24 +53,22 @@ var ViewController = Class.extend
 
         addPropertyControls: function(propertyControlParameters)
         {
-            for (eachIndex in propertyControlParameters)
+            propertyControlParameters.enumerate(function(eachControlParameters)
             {
-                eachControlParameters = propertyControlParameters[eachIndex];
-                eachControlParameters.delegate = this; //Hook up callback for this ViewController.
-                this.addNewPropertyControl(eachControlParameters);
-            }
+                eachControlParameters.delegate = viewController; //Hook up callback for this ViewController.
+                viewController.addNewPropertyControl(eachControlParameters);
+            });
         },
 
         addNewPropertyValueControl: function(propertyName, parameters)
         {
             //Create a control.
             var className = parameters['className'] || 'PropertyControl';
-            control = new window[className](parameters);
+            control = new window[className](parameters, propertyName);
 
             //Collect.
-            if (this.properyControls[propertyName] == null ) this.properyControls[propertyName] = [];
-            //warning: Setter for keypath.
-            this.properyControls.setObjectForKeypath(control, [parameters['keyPath']);
+            if (this.properyControls[propertyName] == null) this.properyControls[propertyName] = [];
+            this.properyControls.setValueForKeyPath(control, control.keyPath);
 
             //Add UI.
             this.propertiesPanel.appendChild(control.element);
@@ -75,45 +76,35 @@ var ViewController = Class.extend
 
         addPropertyValueControls: function(propertyValueControls)
         {
-            for (eachPropertyName in propertyValueControls)
+            propertyValueControls.enumerate(function(eachPropertyValueControls, eachPropertyName)
             {
-                eachPropertyValueControls = propertyValueControls[eachPropertyName];
-                for (eachIndex in eachPropertyValueControls)
+                eachPropertyValueControls.enumerate(function(eachControlParameters)
                 {
-                    eachControlParameters = eachPropertyValueControls[eachIndex];
-                    eachControlParameters.delegate = this; //Hook up callback for this ViewController.
-                    this.addNewPropertyValueControl(eachPropertyName, eachControlParameters);
-                }
-            }
+                    eachControlParameters.delegate = viewController; //Hook up callback for this ViewController.
+                    viewController.addNewPropertyValueControl(eachPropertyName, eachControlParameters);
+                });
+            });
         },
 
         controlForKeyPath: function(keyPath)
-        {
-            //warning: Getter for keypath.
-            return this.properyControls[keyPath];
-        },
+        { return this.properyControls.valueForKeyPath(keyPath); },
 
         //Render CSS rule.
         cssRule: function()
         {
-
             log(this.properyControls);
 
             var cssRule = '';
-            for (eachKey in this.properyControls)
+            this.properyControls.enumerate(function(eachControlOrPropertyValues, eachKey)
             {
-                eachControlOrPropertyValues = this.properyControls[eachKey];
+                log('eachControlOrPropertyValues: '+eachControlOrPropertyValues);
                 if (eachControlOrPropertyValues instanceof Array)
                 {
                     //Property values.
-                    var cssDefinition = '';
-                    var cssValues = [];
-                    for (eachIndex in eachControlOrPropertyValues)
-                    {
-                        eachValueControl = eachControlOrPropertyValues[eachIndex];
-                        cssValues.push(eachValueControl.cssValue());
-                    }
-                    cssDefinition = cssValues.join(' ');
+                    cssDefinition = '';
+                    document.cssValues = [];
+                    eachControlOrPropertyValues.enumerate(function(eachValueControl) { document.cssValues.push(eachValueControl.cssValue()); });
+                    cssDefinition = document.cssValues.join(' ');
                     cssRule += eachKey + ': ' + cssDefinition + '; \n';
                 }
 
@@ -123,7 +114,7 @@ var ViewController = Class.extend
                     eachControl = eachControlOrPropertyValues;
                     cssRule += eachControl.cssValue() + ' \n';
                 }
-            }
+            });
             return cssRule;
         },
 

@@ -23,16 +23,24 @@ var Defaults =
     'defaultLeft' : 20,
     'maxLeft' : 450,
 
+    'defaultPerspective' : 10000,
+    'maxPerspective' : 10000,
+
     'defaultRotate' : 0,
-    'maxRotate' : 1.0
+    'maxRotate' : 360,
+
+    'defaultTranslate' : 0,
+    'maxTranslate' : 450,
+
+    'defaultOrigin' : 50,
+    'maxOrigin' : 100
 };
 
 
 var defaultPropertyControls =
 [
-
     {
-        'keyPath' : 'widthControl',
+        'key' : 'widthControl',
         'name' : 'width',
         'unit' : 'px',
         'url' : 'http://www.w3schools.com/cssref/pr_dim_width.asp',
@@ -42,7 +50,7 @@ var defaultPropertyControls =
     },
 
     {
-        'keyPath' : 'heightControl',
+        'key' : 'heightControl',
         'name' : 'height',
         'unit' : 'px',
         'url' : 'http://www.w3schools.com/cssref/pr_dim_height.asp',
@@ -52,7 +60,7 @@ var defaultPropertyControls =
     },
 
     {
-        'keyPath' : 'topControl',
+        'key' : 'topControl',
         'name' : 'top',
         'unit' : 'px',
         'url' : 'http://www.w3schools.com/cssref/pr_pos_top.asp',
@@ -62,7 +70,7 @@ var defaultPropertyControls =
     },
 
     {
-        'keyPath' : 'leftControl',
+        'key' : 'leftControl',
         'name' : 'left',
         'unit' : 'px',
         'url' : 'http://www.w3schools.com/cssref/pr_pos_left.asp',
@@ -78,37 +86,107 @@ var defaultPropertyValueControls =
     '-webkit-transform' :
     [
         {
-            'keyPath' : '-webkit-transform.rotateXControl',
-            'name' : 'rotateX',
+            'key' : 'perspectiveControl',
+            'name' : 'perspective',
             'unit' : '',
+            'url' : 'http://www.w3schools.com/css3/css3_3dtransforms.asp',
+            'title' : 'Defines a perspective view for a 3D transformed element',
+            'min' : 0, 'max' : Defaults.maxPerspective, 'value' : Defaults.defaultPerspective,
+            'className' : 'TransformValueControl',
+            'delegate' : null
+        },
+
+        {
+            'key' : 'rotateXControl',
+            'name' : 'rotateX',
+            'unit' : 'deg',
             'url' : 'http://www.w3schools.com/css3/css3_3dtransforms.asp',
             'title' : 'Defines a 3D rotation along the X-axis.',
-            'min' : 0, 'max' : Defaults.maxRotate, 'value' : Defaults.defaultRotate, 'step' : 0.01,
+            'min' : 0, 'max' : Defaults.maxRotate, 'value' : Defaults.defaultRotate,
             'className' : 'TransformValueControl',
             'delegate' : null
         },
 
         {
-            'keyPath' : '-webkit-transform.rotateYControl',
+            'key' : 'rotateYControl',
             'name' : 'rotateY',
-            'unit' : '',
+            'unit' : 'deg',
             'url' : 'http://www.w3schools.com/css3/css3_3dtransforms.asp',
             'title' : 'Defines a 3D rotation along the Y-axis.',
-            'min' : 0, 'max' : Defaults.maxRotate, 'value' : Defaults.defaultRotate, 'step' : 0.01,
+            'min' : 0, 'max' : Defaults.maxRotate, 'value' : Defaults.defaultRotate,
             'className' : 'TransformValueControl',
             'delegate' : null
         },
 
         {
-            'keyPath' : '-webkit-transform.rotateZControl',
+            'key' : 'rotateZControl',
             'name' : 'rotateZ',
-            'unit' : '',
+            'unit' : 'deg',
             'url' : 'http://www.w3schools.com/css3/css3_3dtransforms.asp',
             'title' : 'Defines a 3D rotation along the Z-axis.',
-            'min' : 0, 'max' : Defaults.maxRotate, 'value' : Defaults.defaultRotate, 'step' : 0.01,
+            'min' : 0, 'max' : Defaults.maxRotate, 'value' : Defaults.defaultRotate,
+            'className' : 'TransformValueControl',
+            'delegate' : null
+        },
+
+        {
+            'key' : 'translateXControl',
+            'name' : 'translateX',
+            'unit' : 'px',
+            'url' : 'http://www.w3schools.com/css3/css3_3dtransforms.asp',
+            'title' : 'Defines a translation, using only the value for the X-axis.',
+            'min' : 0, 'max' : Defaults.maxTranslate, 'value' : Defaults.defaultTranslate,
+            'className' : 'TransformValueControl',
+            'delegate' : null
+        },
+
+        {
+            'key' : 'translateYControl',
+            'name' : 'translateY',
+            'unit' : 'px',
+            'url' : 'http://www.w3schools.com/css3/css3_3dtransforms.asp',
+            'title' : 'Defines a translation, using only the value for the X-axis.',
+            'min' : 0, 'max' : Defaults.maxTranslate, 'value' : Defaults.defaultTranslate,
+            'className' : 'TransformValueControl',
+            'delegate' : null
+        },
+
+        {
+            'key' : 'translateZControl',
+            'name' : 'translateZ',
+            'unit' : 'px',
+            'url' : 'http://www.w3schools.com/css3/css3_3dtransforms.asp',
+            'title' : 'Defines a 3D translation, using only the value for the Z-axis.',
+            'min' : 0, 'max' : Defaults.maxTranslate, 'value' : Defaults.defaultTranslate,
             'className' : 'TransformValueControl',
             'delegate' : null
         }
-    ]
+    ],
+
+    '-webkit-transform-origin' :
+        [
+
+            {
+                'key' : 'originXControl',
+                'name' : 'originX',
+                'unit' : '%',
+                'url' : 'http://www.w3schools.com/cssref/css3_pr_transform-origin.asp',
+                'title' : "Set a rotated element's base placement.",
+                'min' : 0, 'max' : Defaults.maxOrigin, 'value' : Defaults.defaultOrigin,
+                'className' : 'PercentValueControl',
+                'delegate' : null
+            },
+
+            {
+                'key' : 'originYControl',
+                'name' : 'originY',
+                'unit' : '%',
+                'url' : 'http://www.w3schools.com/cssref/css3_pr_transform-origin.asp',
+                'title' : "Set a rotated element's base placement.",
+                'min' : 0, 'max' : Defaults.maxOrigin, 'value' : Defaults.defaultOrigin,
+                'className' : 'PercentValueControl',
+                'delegate' : null
+            }
+        ]
 
 };

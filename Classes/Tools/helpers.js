@@ -48,3 +48,45 @@ var Point = Class.extend
         return '['+this.x+','+this.y+']';
     }
 });
+
+Object.prototype.setValueForKeyPath_ = function(value, keyPath)
+{
+    dot = (keyPath == null || keyPath == '') ? '' : '.';
+    var statement = 'this'+dot+keyPath+'=value;';
+    eval(statement);
+}
+
+Object.prototype.valueForKeyPath_ = function(keyPath)
+{
+    dot = (keyPath == null || keyPath == '') ? '' : '.';
+    var statement = 'this'+dot+keyPath;
+    return eval(statement);
+}
+
+Object.prototype.setValueForKeyPath = function(value, keyPath)
+{
+    if (keyPath == null || keyPath == '') return;
+    var path = keyPath.replace('.', '"]["');
+    var statement = 'this["'+path+'"]=value;';
+    log('eval('+statement+')');
+    eval(statement);
+}
+
+Object.prototype.valueForKeyPath = function(keyPath)
+{
+    if (keyPath == null || keyPath == '') return;
+    var path = keyPath.replace('.', '"]["');
+    var statement = 'this["'+path+'"]';
+    log('eval('+statement+')');
+    return eval(statement);
+}
+
+Object.prototype.enumerate = function(callback)
+{
+    for (eachKey in this)
+    {
+        eachValue = this[eachKey];
+        if (typeof(eachValue) != "function") //Exclude the KVC functions added above
+            callback(eachValue, eachKey);
+    }
+}
