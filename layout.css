@@ -15,6 +15,7 @@ body
     margin: 0px;
 
     position: relative;
+    overflow: hidden;
 }
 
 #dummy
@@ -26,72 +27,48 @@ body
 
     left: 20px;
     top: 20px;
-
-    background-color: rgba(56, 56, 56, 0.3);
-
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: moz-none;
-    -ms-user-select: none;
-    user-select: none;
-    cursor: default;
-
-    _overflow: hidden;
-
-    -webkit-perspective: 2500px;
-    -moz-perspective: 2500px;
-    -ms-perspective: 2500px;
-    -o-perspective: 2500px;
-    perspective: 2500px;
-}
-
-#controls
-{
-    width: 450px;
-    height: 450px;
-
-    top: 0px;
-    left: 0px;
-    position: absolute;
-
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: moz-none;
-    -ms-user-select: none;
-    user-select: none;
-    cursor: default;
-
-    z-index: 99999;
 }
 
 #propertiesPanel
 {
-    width: 438px;
+    width: 400px;
 
-    padding-left: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
+    margin: 0px;
 
-    background-color: rgba(240, 240, 240, 0.5);
+    top: 10px;
+    right: 10px;
+    position: fixed;
 
-    bottom: 1px;
-    left: 1px;
-    position: absolute;
+    z-index: 10000;
 }
 
-#cssPanel,
+#cssPanel
+{
+    width: 100%;
+
+    padding: 0px;
+    margin: 0px;
+
+    bottom: 0px;
+    left: 0px;
+    rigth: 0;
+    position: fixed;
+}
+
 #cssPanel #cssTextArea
 {
-    width: 450px;
+    width: 440px;
     height: 200px;
-    overflow: hidden;
+
+    padding: 10px;
+    margin: 10px;
 }
 
 button
 {
     height: 30px;
-    margin: 9px 0px 0px 0px; /* range <input> hack */
+    margin: 0px;
 }
 
 input.range

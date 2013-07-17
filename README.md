@@ -4,6 +4,9 @@ CSS3 transform playground.
 
 #### Version tracking
 
++ 0.5.1
+    * Some UI skin
+
 + 0.5.0
     * Tons of features, factoring actually
 

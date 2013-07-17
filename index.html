@@ -13,32 +13,23 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>labs!transform 0.5.0</title>
+    <title>labs!transform 0.5.1</title>
 <link rel="stylesheet" type="text/css" href="layout.css">
 <link rel="stylesheet" type="text/css" href="skin.css">
 </head>
 
 <body>
 
-    <div id="dummy">
+    <div id="dummy"></div>
+
+    <div id="propertiesPanel"></div>
+
+    <div id="cssPanel">
+        <textarea id="cssTextArea"
+                  disabled="true"
+                  onchange="viewController.cssTextAreaValueChanged();"
+                  onkeypress="viewController.cssTextAreaValueChanged();"></textarea>
     </div>
-
-    <!--Controls-->
-    <section id="controls">
-
-        <div id="propertiesPanel">
-            <button title="reset"
-                    onclick="viewController.reset();">Reset</button>
-        </div>
-
-        <div id="cssPanel">
-            <textarea id="cssTextArea"
-                      disabled="true"
-                      onchange="viewController.cssTextAreaValueChanged();"
-                      onkeypress="viewController.cssTextAreaValueChanged();"></textarea>
-        </div>
-
-    </section>
 
 
     <!--Tools-->

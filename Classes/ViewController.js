@@ -34,6 +34,9 @@ var ViewController = Class.extend
         {
             this.addPropertyControls(defaultPropertyControls);
             this.addPropertyValueControls(defaultPropertyValueControls);
+
+            //Render CSS.
+            this.sliderValueChanged();
         },
 
     //Manage CSS properties.
@@ -92,8 +95,6 @@ var ViewController = Class.extend
         //Render CSS rule.
         cssRule: function()
         {
-            log(this.properyControls);
-
             var cssRule = '';
             this.properyControls.enumerate(function(eachControlOrPropertyValues, eachKey)
             {

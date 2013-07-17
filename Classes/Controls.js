@@ -68,7 +68,7 @@ var PropertyControl = Class.extend
 
                     this.valueTextField = document.createElement('input');
                     this.valueTextField.id = this.name+'ValueTextField';
-                    this.valueTextField.class = 'value';
+                    this.valueTextField.className = 'value';
                     this.valueTextField.value = this.value;
 
                     //Events, reference to control object.
