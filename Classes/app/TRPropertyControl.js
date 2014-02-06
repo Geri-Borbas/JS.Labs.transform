@@ -9,7 +9,7 @@
  *
  */
 
-var PropertyControl = Class.extend
+var TRPropertyControl = Class.extend
 ({
 
     //Creation.
@@ -148,13 +148,13 @@ var PropertyControl = Class.extend
 
 });
 
-var TransformValueControl = PropertyControl.extend
+var TransformValueControl = TRPropertyControl.extend
 ({
     cssValue: function()
     { return this.name+'('+this.value+this.unit+')'; }
 });
 
-var PercentValueControl = PropertyControl.extend
+var PercentValueControl = TRPropertyControl.extend
 ({
     cssValue: function()
     { return this.value+'%'; }

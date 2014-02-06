@@ -4,14 +4,22 @@ CSS3 transform playground.
 
 #### Version tracking
 
-+ 0.5.1
-    * Some UI skin
+* 0.6.0
+    + Rebased project
+        + eppz!js
+        + Node/GruntJS
+        + SASS/Compass
+        + .gitignore
+        + single file output (using beauty for now)
 
-+ 0.5.0
-    * Tons of features, factoring actually
+* 0.5.1
+    + Some UI skin
 
-+ 0.0.2
-    * Created slider that spits out CSS3 definitions
+* 0.5.0
+    + Tons of features, factoring actually
+
+* 0.0.2
+    + Created slider that spits out CSS3 definitions
 
 #### License
 

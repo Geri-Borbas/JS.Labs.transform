@@ -13,9 +13,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>labs!transform 0.5.1</title>
-<link rel="stylesheet" type="text/css" href="layout.css">
-<link rel="stylesheet" type="text/css" href="skin.css">
+    <title>labs!transform</title>
+<link rel="stylesheet" type="text/css" href="build/UI/index.css">
 </head>
 
 <body>
@@ -31,26 +30,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
                   onkeypress="viewController.cssTextAreaValueChanged();"></textarea>
     </div>
 
-
-    <!--Tools-->
-    <script src="Classes/Tools/eppz!kit.js"></script>
-    <script src="Classes/Tools/Class.js"></script>
-    <script src="Classes/Tools/helpers.js"></script>
-    <script src="Classes/Tools/eppz!kit.js"></script>
-    <script src="Classes/Tools/MouseWheelListener.js"></script>
-
-    <!--View-->
-    <script src="Classes/ViewController.js"></script>
-    <script src="Classes/Controls.js"></script>
-    <script src="Classes/DefaultPropertyControls.js"></script>
-
-    <!--Load-->
-    <script language="javascript">
-
-        var viewController = new ViewController();
-        viewController.build();
-
-    </script>
+    <!-- labs!transform app -->
+    <script src="Classes/eppz!js/eppz!js.min.js"></script>
+    <script src="build/derived/Classes/labs!transform!app.js"></script>
 
 </body>
 </html>

@@ -9,33 +9,71 @@
  *
  */
 
-var MouseWheelListener = Class.extend
-({
-    construct: function(callback)
+body
+{
+    font: 12px Arial;
+    margin: 0px;
+
+    position: relative;
+    overflow: hidden;
+}
+
+#dummy
+{
+    width: 450px;
+    height: 450px;
+
+    position: absolute;
+
+    left: 20px;
+    top: 20px;
+}
+
+#propertiesPanel
+{
+    width: 400px;
+
+    padding: 10px;
+    margin: 0px;
+
+    top: 10px;
+    right: 10px;
+    position: fixed;
+
+    z-index: 10000;
+}
+
+#cssPanel
+{
+    width: 100%;
+
+    padding: 0px;
+    margin: 0px;
+
+    bottom: 0px;
+    left: 0px;
+    rigth: 0;
+    position: fixed;
+
+    #cssTextArea
     {
-        //Stick the handler to document element.
-        document.callback = callback;
+        width: 440px;
+        height: 200px;
 
-        if (document.addEventListener)
-        {
-            //IE9, Chrome, Safari, Opera.
-            document.addEventListener("mousewheel", this.MouseWheelHandler, false);
-            //Firefox.
-            document.addEventListener("DOMMouseScroll", this.MouseWheelHandler, false);
-        }
-        //IE 6/7/8.
-        else document.attachEvent("onmousewheel", this.MouseWheelHandler);
-    },
-
-    MouseWheelHandler: function(event)
-    {
-        //Cross-browser wheel delta.
-        var event = window.event || event; //Old IE support.
-        var delta = Math.max(-1, Math.min(1, (event.wheelDelta || -event.detail)));
-
-        //Invoke callback.
-        document.callback(delta);
-
-        return false;
+        padding: 10px;
+        margin: 10px;
     }
-});
+}
+
+button
+{
+    height: 30px;
+    margin: 0px;
+}
+
+input.range
+{
+    top: 6px;
+    left: 0px;
+    position: relative;
+}

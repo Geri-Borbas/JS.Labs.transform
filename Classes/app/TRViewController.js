@@ -9,7 +9,13 @@
  *
  */
 
-var ViewController = Class.extend
+
+include('helpers.js');
+include('DefaultPropertyControls.js');
+include('TRPropertyControl.js');
+
+
+var TRViewController = Class.extend
 ({
 
     //Creation.
@@ -25,9 +31,6 @@ var ViewController = Class.extend
 
             //Model.
             this.cssText = '';
-
-            //Add wheel listening.
-            this.mouseWheelListener = new MouseWheelListener(this.mouseDidRollWheel);
         },
 
         build: function()
@@ -44,7 +47,7 @@ var ViewController = Class.extend
         addNewPropertyControl: function(parameters)
         {
             //Create.
-            var className = parameters['className'] || 'PropertyControl';
+            var className = parameters['className'] || 'TRPropertyControl';
             control = new window[className](parameters);
 
             //Collect.
@@ -66,7 +69,7 @@ var ViewController = Class.extend
         addNewPropertyValueControl: function(propertyName, parameters)
         {
             //Create a control.
-            var className = parameters['className'] || 'PropertyControl';
+            var className = parameters['className'] || 'TRTRPropertyControl';
             control = new window[className](parameters, propertyName);
 
             //Collect.
@@ -121,9 +124,6 @@ var ViewController = Class.extend
 
 
     //User interactions.
-
-        mouseDidRollWheel: function(delta)
-        { log('Mouse delta ('+delta+')'); },
 
         //Property sliders.
         sliderValueChanged: function(event)

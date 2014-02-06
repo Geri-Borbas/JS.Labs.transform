@@ -1,7 +1,7 @@
 /**
  *
  * Created by Borbás Geri on 7/6/13
- * Copyright (c) 2013 eppz! development, LLC.
+ * Copyright (c) 2014 eppz! development, LLC.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
@@ -9,71 +9,5 @@
  *
  */
 
-body
-{
-    font: 12px Arial;
-    margin: 0px;
-
-    position: relative;
-    overflow: hidden;
-}
-
-#dummy
-{
-    width: 450px;
-    height: 450px;
-
-    position: absolute;
-
-    left: 20px;
-    top: 20px;
-}
-
-#propertiesPanel
-{
-    width: 400px;
-
-    padding: 10px;
-    margin: 0px;
-
-    top: 10px;
-    right: 10px;
-    position: fixed;
-
-    z-index: 10000;
-}
-
-#cssPanel
-{
-    width: 100%;
-
-    padding: 0px;
-    margin: 0px;
-
-    bottom: 0px;
-    left: 0px;
-    rigth: 0;
-    position: fixed;
-}
-
-#cssPanel #cssTextArea
-{
-    width: 440px;
-    height: 200px;
-
-    padding: 10px;
-    margin: 10px;
-}
-
-button
-{
-    height: 30px;
-    margin: 0px;
-}
-
-input.range
-{
-    top: 6px;
-    left: 0px;
-    position: relative;
-}
+@import 'layout';
+@import 'skin';

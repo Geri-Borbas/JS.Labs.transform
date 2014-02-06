@@ -11,14 +11,14 @@
 
 body
 {
-    background-image: url('Assets/blueprint_pixel_grid.png');
+    background-image: url('../../assets/blueprint_pixel_grid.png');
 }
 
 #dummy
 {
     pointer-events:none;
     
-    background-image: url('Assets/dummy_pixel_grid_texture.png');
+    background-image: url('../../assets/dummy_pixel_grid_texture.png');
     background-position: 0% 0%;
 }
 
