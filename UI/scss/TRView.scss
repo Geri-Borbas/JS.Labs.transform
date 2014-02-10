@@ -1,0 +1,13 @@
+
+
+@import 'mixins';
+
+
+.TRView
+{
+    overflow: hidden;
+    pointer-events: none;
+
+    // @include transition(transform, 0.8s, ease-in-out);
+    @include transformOrigin(0% 50%);
+}

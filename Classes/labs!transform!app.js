@@ -9,10 +9,17 @@
  *
  */
 
-
 include('app/TRViewController.js');
+include('app/TRScene/TRScene.js');
+
+var scene = new TRScene();
+    scene.addToBody();
+
+log(scene.matrix3D.toString());
 
 
+/*
 var viewController = new TRViewController();
     viewController.build();
+*/
 

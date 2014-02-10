@@ -2,57 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a7d485c-34d0-4e5c-a988-382ae3367348" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Gardrobe.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Classes/eppz!js/eppz!js.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Classes/app/helpers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UI/scss/index.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Classes/Tools/Class.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Classes/Tools/eppz!kit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Classes/Tools/helpers.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Classes/Controls.js" afterPath="$PROJECT_DIR$/Classes/app/TRPropertyControl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Classes/DefaultPropertyControls.js" afterPath="$PROJECT_DIR$/Classes/app/DefaultPropertyControls.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Classes/Tools/MouseWheelListener.js" afterPath="$PROJECT_DIR$/Classes/labs!transform!app.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Classes/ViewController.js" afterPath="$PROJECT_DIR$/Classes/app/TRViewController.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/layout.css" afterPath="$PROJECT_DIR$/UI/scss/layout.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/skin.css" afterPath="$PROJECT_DIR$/UI/scss/skin.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/blueprint_pixel_grid.png" afterPath="$PROJECT_DIR$/assets/blueprint_pixel_grid.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/blueprint_pixel_grid.psd" afterPath="$PROJECT_DIR$/assets/blueprint_pixel_grid.psd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/dummy_pixel_grid_texture.png" afterPath="$PROJECT_DIR$/assets/dummy_pixel_grid_texture.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/preview.png" afterPath="$PROJECT_DIR$/assets/preview.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/devices/device_iPhone_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/devices/device_iPhone_4_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/devices/device_iPhone_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/devices/device_iPhone_5C_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/devices/device_iPhone_5S.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/devices/device_iPhone_5S_gold.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Design/devices 0.0.3.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Classes/app/TRScene/EPPZView.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Classes/app/TRScene/Matrix3D.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Classes/app/TRScene/TRScene.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UI/scss/TRScene.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Classes/app/TRScene/TRScreenView.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UI/scss/TRView.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UI/scss/mixins.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/UI/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/UI/skin.css" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/build/UI/layout.css" afterPath="$PROJECT_DIR$/Classes/app/TRScene/TRView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/derived/Classes/app/TRViewController.js" afterPath="$PROJECT_DIR$/build/derived/Classes/app/TRViewController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/eppz!js/eppz!js.min.js" afterPath="$PROJECT_DIR$/Classes/eppz!js/eppz!js.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/derived/Classes/eppz!js/eppz!js.min.js" afterPath="$PROJECT_DIR$/build/derived/Classes/eppz!js/eppz!js.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/app/helpers.js" afterPath="$PROJECT_DIR$/Classes/app/helpers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/derived/Classes/app/helpers.js" afterPath="$PROJECT_DIR$/build/derived/Classes/app/helpers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/labs!transform.iml" afterPath="$PROJECT_DIR$/.idea/labs!transform.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UI/scss/index.scss" afterPath="$PROJECT_DIR$/UI/scss/index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/labs!transform!app.js" afterPath="$PROJECT_DIR$/Classes/labs!transform!app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/derived/Classes/labs!transform!app.js" afterPath="$PROJECT_DIR$/build/derived/Classes/labs!transform!app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/labs!transform.min.js" afterPath="$PROJECT_DIR$/build/labs!transform.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UI/scss/layout.scss" afterPath="$PROJECT_DIR$/UI/scss/layout.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UI/scss/skin.scss" afterPath="$PROJECT_DIR$/UI/scss/skin.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="labs!transform.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/ViewController.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1374081981091" ignored="false" />
-    <file path="/index.html" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391725890601" ignored="false" />
+    <file path="/index.html" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391997560984" ignored="false" />
     <file path="/UIControls.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1373976384397" ignored="false" />
     <file path="/Controls.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1374076981209" ignored="false" />
-    <file path="/helpers.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1374072593838" ignored="false" />
-    <file path="/README.md" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391727368390" ignored="false" />
+    <file path="/helpers.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391903537591" ignored="false" />
+    <file path="/README.md" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391996328058" ignored="false" />
     <file path="/PropertyControls.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1373988713147" ignored="false" />
     <file path="/layout.css" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1374082370547" ignored="false" />
     <file path="/DefaultPropertyControls.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1374077595857" ignored="false" />
     <file path="/a.dummy" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1374072926632" ignored="false" />
     <file path="/skin.css" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1374081930588" ignored="false" />
-    <file path="/Dummy.txt" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391721757557" ignored="false" />
-    <file path="/Gruntfile.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391726046239" ignored="false" />
-    <file path="/TRViewController.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391723414770" ignored="false" />
-    <file path="/labs!transform!app.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391723437552" ignored="false" />
+    <file path="/Dummy.txt" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391908163336" ignored="false" />
+    <file path="/Gruntfile.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391986500972" ignored="false" />
+    <file path="/TRViewController.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391891054701" ignored="false" />
+    <file path="/labs!transform!app.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391990204733" ignored="false" />
     <file path="/labs!transform.scss" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391725294817" ignored="false" />
     <file path="/index.css" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391726232282" ignored="false" />
     <file path="/INSTALL.md" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391725438795" ignored="false" />
     <file path="/a.php" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391725337159" ignored="false" />
     <file path="/a.coffee" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391725337900" ignored="false" />
-    <file path="/skin.scss" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391726073113" ignored="false" />
-    <file path="$PROJECT_DIR$/build/derived/Classes/app/TRViewController.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391726096380" ignored="false" />
-    <file path="$PROJECT_DIR$/build/derived/Classes/app/TRPropertyControl.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391726096380" ignored="false" />
+    <file path="/skin.scss" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391988583231" ignored="false" />
     <file path="/.gitignore" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391726530628" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/grunt-contrib-sass/tasks/sass.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391726658812" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/grunt-contrib-watch/test/tasks/livereload_test.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391726658812" ignored="false" />
@@ -68,6 +75,84 @@
     <file path="$PROJECT_DIR$/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/test/globule_test.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391726658812" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/grunt-contrib-watch/package.json" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391726658812" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/grunt-contrib-watch/node_modules/tiny-lr/package.json" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391726658812" ignored="false" />
+    <file path="/TRScene.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391986092262" ignored="false" />
+    <file path="/EPPZView.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391993643684" ignored="false" />
+    <file path="/Accessors.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391903604865" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/Classes/eppz!js/Object.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391910865124" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/temp/Classes/Testbed/Tests/Element.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391908691747" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/temp/Classes/eppz!js.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391909958439" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/temp/Classes/eppz!js/Element.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391908791498" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/temp/Classes/Testbed/Testbed.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391909784263" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/temp/Classes/eppz!js/Array.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391908791499" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/eppz!js.min.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391976339049" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/Classes/eppz!js/String.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391913149028" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/Classes/eppz!js.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391976330621" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/Classes/eppz!js/Array.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391915208720" ignored="false" />
+    <file path="/String.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391910343988" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/temp/Classes/eppz!js/String.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391909958439" ignored="false" />
+    <file path="/Object.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391912477953" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/Classes/Testbed/Testbed.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391947307021" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/Classes/Testbed/Tests/KeyPaths.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391913447986" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/Classes/Testbed/Tests/Strings.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391909705765" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/temp/Classes/Testbed/Tests/Inheritance.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391909784263" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/temp/Classes/Testbed/Tests/Strings.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391909723497" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/temp/Classes/Testbed/Tests/String.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391909784263" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/temp/Classes/Testbed/Tests/ClassMethods.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391909823752" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/Classes/Testbed/Tests/String.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391909927847" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/index.html" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391910407936" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/Gruntfile.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391913386343" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/Version tracking.md" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391976400620" ignored="false" />
+    <file path="/Version tracking.md" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391976400620" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/derived/Classes/eppz!js.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391976182631" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/derived/Classes/eppz!js/String.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391975855676" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/eppz!js!class.min.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391976339049" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/0.1.6/eppz!js_0.1.6.min.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391976182631" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/Classes/eppz!js/KeyPaths.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391973091702" ignored="false" />
+    <file path="/KeyPaths.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391972680216" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/package.json" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391976313790" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/tests/Object.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391912133108" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/tests/tests.html" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391911564118" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/Tests/Object.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391913004969" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/derived/Tests/Object.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391913734982" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/derived/Classes/Testbed/Testbed.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391976155203" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/derived/Classes/eppz!js/KeyPaths.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391975855676" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/derived/Classes/Testbed/Tests/Element.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391915871812" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/derived/Classes/eppz!js/Helpers.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391913734982" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/Classes/eppz!js/Element.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391915023342" ignored="false" />
+    <file path="/Element.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391915020521" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/derived/Classes/eppz!js/Element.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391975855676" ignored="false" />
+    <file path="/Array.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391915097478" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/derived/Classes/eppz!js/Array.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391975855676" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/Classes/eppz!js/Class.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391976224635" ignored="false" />
+    <file path="/Class.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391973008429" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/Classes/Testbed/Tests/Enumerators.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391976144379" ignored="false" />
+    <file path="/Testbed.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391945388875" ignored="false" />
+    <file path="/Enumerators.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391947047675" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/derived/Classes/eppz!js/Class.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391976182631" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/derived/Classes/Testbed/Tests/ClassMethods.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391975855676" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/Classes/Testbed/Tests/Bindings.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391976265934" ignored="false" />
+    <file path="/Bindings.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391976260325" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/derived/Classes/Testbed/Tests/Bindings.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391975855676" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/derived/Classes/Testbed/Tests/KeyPaths.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391975855676" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/Classes/Testbed/Tests/Superclass.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391976086464" ignored="false" />
+    <file path="/Superclass.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391973332634" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/README.md" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391976068744" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/derived/Classes/eppz!js/Object.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391975855676" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/derived/Classes/Testbed/Tests/Superclass.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391975855676" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/derived/Classes/Testbed/Tests/Enumerators.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391975855676" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eppz!js/build/derived/Classes/Testbed/Tests/String.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391975855676" ignored="false" />
+    <file path="$PROJECT_DIR$/build/derived/Classes/app/EPPZView.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391985718948" ignored="false" />
+    <file path="$PROJECT_DIR$/build/derived/Classes/app/TRScene/TRView/TRView.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391986117323" ignored="false" />
+    <file path="/TRView.scss" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391990898852" ignored="false" />
+    <file path="/index.scss" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391988023780" ignored="false" />
+    <file path="/TRScene.scss" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391986744881" ignored="false" />
+    <file path="$PROJECT_DIR$/build/UI/TRScene.css" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391987378677" ignored="false" />
+    <file path="$PROJECT_DIR$/build/UI/index.css" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391987378677" ignored="false" />
+    <file path="/TRView.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391997639876" ignored="false" />
+    <file path="/TRScreenView.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391995832082" ignored="false" />
+    <file path="/mixins.scss" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391988218351" ignored="false" />
+    <file path="/Matrix3D.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391997223782" ignored="false" />
+    <file path="$PROJECT_DIR$/build/derived/Classes/app/DefaultPropertyControls.js" changelist="7a7d485c-34d0-4e5c-a988-382ae3367348" time="1391995636530" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,44 +171,7 @@
     <favorites_list name="labs!transform" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="22" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="12" selection-start="28" selection-end="40" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="37" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="22" selection-start="97" selection-end="97" vertical-scroll-proportion="0.07672634">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -141,30 +189,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/build/derived/Classes/app/TRViewController.js" />
-        <option value="$PROJECT_DIR$/Classes/app/helpers.js" />
-        <option value="$PROJECT_DIR$/Classes/app/TRViewController.js" />
+        <option value="$PROJECT_DIR$/build/UI/TRScene.css" />
+        <option value="$PROJECT_DIR$/UI/scss/TRScene.scss" />
+        <option value="$PROJECT_DIR$/UI/scss/layout.scss" />
+        <option value="$PROJECT_DIR$/UI/scss/index.scss" />
+        <option value="$PROJECT_DIR$/UI/scss/mixins.scss" />
+        <option value="$PROJECT_DIR$/UI/scss/skin.scss" />
         <option value="$PROJECT_DIR$/Classes/labs!transform!app.js" />
-        <option value="$PROJECT_DIR$/build/UI/layout.css" />
-        <option value="$PROJECT_DIR$/build/UI/labs!transform.css" />
-        <option value="$PROJECT_DIR$/UI/labs!transform.scss" />
-        <option value="$PROJECT_DIR$/UI/index.scss" />
-        <option value="$PROJECT_DIR$/INSTALL.md" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/UI/css/layout.scss" />
-        <option value="$PROJECT_DIR$/build/UI/index.css" />
-        <option value="$PROJECT_DIR$/UI/css/skin.scss" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Classes/app/TRScene/TRScene.js" />
+        <option value="$PROJECT_DIR$/UI/scss/TRView.scss" />
+        <option value="$PROJECT_DIR$/Classes/app/TRScene/Matrix3D.js" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Classes/app/TRScene/TRScreenView.js" />
+        <option value="$PROJECT_DIR$/Classes/app/TRScene/TRView.js" />
+        <option value="$PROJECT_DIR$/Classes/app/TRScene/EPPZView.js" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1461" />
+    <option name="x" value="1450" />
     <option name="y" value="-285" />
-    <option name="width" value="1382" />
+    <option name="width" value="1482" />
     <option name="height" value="1139" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -209,7 +257,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -243,6 +290,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labs!transform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labs!transform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Design" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -306,25 +367,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="labs!transform" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="labs!transform" />
+              <option name="myItemId" value="Classes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UI" />
+              <option name="myItemId" value="TRScene" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -342,8 +393,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labs!transform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labs!transform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devices" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -351,8 +421,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="fileTemplates" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -372,15 +442,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Classes/eppz!js" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Classes/Tools" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/UI" />
-      <recent name="$PROJECT_DIR$/UI/css" />
-      <recent name="$PROJECT_DIR$/Classes/app" />
-      <recent name="C:\Users\borbasg\Tools\labs!transform\Classes" />
+      <recent name="$PROJECT_DIR$/UI/scss" />
+      <recent name="$PROJECT_DIR$/Classes/app/TRScene" />
+      <recent name="$PROJECT_DIR$/Classes/app/TRScene/TRView" />
+      <recent name="$PROJECT_DIR$/Classes/app/EPPZView" />
+      <recent name="$PROJECT_DIR$/Design" />
     </key>
   </component>
   <component name="RunManager">
@@ -420,15 +491,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1461" y="-285" width="1382" height="1139" extended-state="0" />
-    <editor active="true" />
+    <frame x="1450" y="-285" width="1482" height="1139" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18155053" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23428144" sideWeight="0.81844944" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2270195" sideWeight="0.81844944" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -437,6 +507,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18155053" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -517,98 +588,117 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build/derived/Classes/app/DefaultPropertyControls.js">
+    <entry file="file://$PROJECT_DIR$/Classes/app/TRViewController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="76" column="33" selection-start="3165" selection-end="3165" vertical-scroll-proportion="0.35078534">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/derived/Classes/app/TRPropertyControl.js">
+    <entry file="file://$PROJECT_DIR$/Classes/app/DefaultPropertyControls.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="27" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.20961145">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.1099477">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/labs!transform.min.js">
+    <entry file="file://$PROJECT_DIR$/Classes/app/TRScene/TRScene.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.015337423">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/derived/Classes/labs!transform!app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="564" column="15" selection-start="21653" selection-end="21653" vertical-scroll-proportion="1.9018404">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/scss/layout.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="0" selection-start="1740" selection-end="1740" vertical-scroll-proportion="0.6595208">
+        <state line="35" column="22" selection-start="1543" selection-end="1543" vertical-scroll-proportion="0.5497382">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classes/labs!transform!app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.3404792">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/Classes/app/helpers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="65" selection-start="1409" selection-end="1409" vertical-scroll-proportion="0.31209362">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UI/scss/index.scss">
+    <entry file="file://$PROJECT_DIR$/Classes/app/TRPropertyControl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="50" selection-start="578" selection-end="578" vertical-scroll-proportion="0.11349306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/scss/skin.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="36" selection-start="1173" selection-end="1173" vertical-scroll-proportion="0.24590164">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="22" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="28" selection-end="40" vertical-scroll-proportion="0.0">
+        <state line="106" column="27" selection-start="4621" selection-end="4627" vertical-scroll-proportion="1.3221406">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="37" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.0">
+        <state line="52" column="37" selection-start="1337" selection-end="1337" vertical-scroll-proportion="0.4731405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="17" selection-start="681" selection-end="681" vertical-scroll-proportion="0.32984293">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="27" selection-start="1337" selection-end="1337" vertical-scroll-proportion="0.23584905">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/app/TRScene/Matrix3D.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="14" selection-start="1588" selection-end="1588" vertical-scroll-proportion="0.44478527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/scss/TRScene.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="29" selection-start="155" selection-end="155" vertical-scroll-proportion="0.15136226">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/app/TRScene/TRScreenView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="1643" selection-end="1643" vertical-scroll-proportion="0.6440129">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="22" selection-start="97" selection-end="97" vertical-scroll-proportion="0.07672634">
+        <state line="8" column="34" selection-start="239" selection-end="239" vertical-scroll-proportion="0.12409514">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/app/TRScene/EPPZView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="12" selection-start="3377" selection-end="3377" vertical-scroll-proportion="1.9018404">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/scss/TRView.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="29" selection-start="110" selection-end="110" vertical-scroll-proportion="0.15136226">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/app/TRScene/TRView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="21" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.22704339">
+          <folding>
+            <element signature="e#0#1128#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

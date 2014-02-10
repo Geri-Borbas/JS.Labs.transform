@@ -9,7 +9,7 @@
  *
  */
 body {
-  background-image: url("../../assets/blueprint_pixel_grid.png"); }
+  background-color: #444; }
 
 #dummy {
   pointer-events: none;

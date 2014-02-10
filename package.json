@@ -1,6 +1,6 @@
 {
   "name": "labs!transform",
-  "version": "0.6.0",
+  "version": "0.7.9",
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-uglify": "~0.2.7",
