@@ -10,7 +10,7 @@
  */
 
 
-include('EPPZView.js');
+include('../EPPZUIKit/EPPZView.js');
 
 
 var TRView = EPPZView.extend

@@ -9,5 +9,5 @@
     pointer-events: none;
 
     // @include transition(transform, 0.8s, ease-in-out);
-    @include transformOrigin(0% 50%);
+    @include transform-origin(0% 50%);
 }

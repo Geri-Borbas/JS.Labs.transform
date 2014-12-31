@@ -73,7 +73,7 @@ var EPPZView = Class.extend
         {
             // Create.
             var div = elementOfType('div');
-            div.id = this.id;
+            if (this.id != null) div.id = this.id;
 
             div.className = this.className;
 
@@ -129,8 +129,7 @@ var EPPZView = Class.extend
         },
 
         mouseOver: function(event)
-        {
-        },
+        { return false; },
 
         mouseOut: function(event)
         {

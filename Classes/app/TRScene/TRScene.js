@@ -10,9 +10,8 @@
  */
 
 
-include('EPPZView.js');
+include('../EPPZUIKit/EPPZView.js');
 include('TRScreenView.js');
-include('TRView.js');
 
 
 var TRScene = EPPZView.extend
